@@ -202,8 +202,8 @@ gradient: 'from-emerald-500/15 via-teal-500/10 to-transparent',
 const SKILLS = useMemo(
 () => [
 'Python','UX Design','Streamlit',
-'SQL','Excel',
-'Data Visualization (Tableau, Power BI)',
+'Excel',
+'Data Visualization',
 'Dashboard Development',
 'Workflow Automation',
 'Operational Analytics',
