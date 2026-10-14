@@ -46,13 +46,13 @@ const PROJECTS: Project[] = useMemo(
 {
 id: 'ai-report-builder',
 title: '2-in-1 AI Report Builder',
-subtitle: 'Super Chart × CRM Agent Auto-Report',
+subtitle: 'Super Chart × Agent Auto-Report',
 icon: ChartColumn,
 tags: ['AI-powered', 'Descriptive Analytics', 'Diagnostic Analytics', 'Root Cause Analysis'],
 problem:
 'Business reporting relied on manually built charts and analysis, which was repetitive, time-consuming and hard to keep consistent across teams.',
 solution:
-'Developed a 2-in-1 AI Report Builder (Super Chart × CRM Agent Auto-Report) that collects data, automates chart generation, standardises business reporting and supports diagnostic analysis.',
+'Developed a 2-in-1 AI Report Builder (Super Chart × Agent Auto-Report) that collects data, automates chart generation, standardises business reporting and supports diagnostic analysis.',
 impact: [
 'Super Chart: Auto-chart generation (descriptive analytics: what happened)',
 'Agent Auto-Report: AI-powered report generation with root-cause analysis and AI insights (diagnostic analytics: why it happened)',
@@ -339,7 +339,7 @@ She is passionate about leveraging analytics to provide insights that solve prob
 <br />
 <br />
 • 2-in-1 AI Report Builder
-<br />Developed a 2-in-1 AI Report Builder (Super Chart × CRM Agent Auto-Report) that collects data, automates chart generation, standardises business reporting and supports diagnostic analysis.
+<br />Developed a 2-in-1 AI Report Builder (Super Chart × Agent Auto-Report) that collects data, automates chart generation, standardises business reporting and supports diagnostic analysis.
 <br />
 <br />
 • Clarity Gate (US & SG)
