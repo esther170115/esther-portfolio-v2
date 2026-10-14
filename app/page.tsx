@@ -11,6 +11,7 @@ Search,
 Sparkles,
 ChevronRight,
 KeyRound,
+ChartColumn,
 } from 'lucide-react';
 
 type Project = {
@@ -38,31 +39,32 @@ return (
 );
 }
 
-function ValueCard({
-eyebrow,
-title,
-desc,
-}: {
-eyebrow: string;
-title: string;
-desc: string;
-}) {
-return (
-<div className="rounded-3xl border border-white/10 bg-white/5 p-7 backdrop-blur-xl shadow-[0_0_0_1px_rgba(255,255,255,0.03)]">
-<div className="text-[11px] tracking-[0.28em] uppercase text-white/55">
-{eyebrow}
-</div>
-<div className="mt-3 text-2xl font-semibold tracking-tight text-white">
-{title}
-</div>
-<div className="mt-2 text-sm leading-relaxed text-white/65">{desc}</div>
-</div>
-);
-}
-
 export default function Page() {
 const PROJECTS: Project[] = useMemo(
 () => [
+// ✅ 0) 2-in-1 AI Report Builder (TikTok)
+{
+id: 'ai-report-builder',
+title: '2-in-1 AI Report Builder',
+subtitle: 'Super Chart × CRM Agent Auto-Report',
+icon: ChartColumn,
+tags: ['AI-powered', 'Descriptive Analytics', 'Diagnostic Analytics', 'Root Cause Analysis'],
+problem:
+'Business reporting relied on manually built charts and analysis, which was repetitive, time-consuming and hard to keep consistent across teams.',
+solution:
+'Developed a 2-in-1 AI Report Builder (Super Chart × CRM Agent Auto-Report) that collects data, automates chart generation, standardises business reporting and supports diagnostic analysis.',
+impact: [
+'Super Chart: AI-powered auto-chart generation (descriptive analytics: what happened)',
+'Agent Auto-Report: AI-powered report generation with root-cause analysis and AI insights (diagnostic analytics: why it happened)',
+],
+stack: [
+'Super Chart Frontend: TypeScript + React',
+'Super Chart Backend: TypeScript + Gulux (in-house framework)',
+'Agent Auto-Report: React · TypeScript · Vite · Tailwind CSS · Vercel',
+],
+gradient: 'from-rose-500/15 via-pink-500/10 to-transparent',
+},
+
 // ✅ 1) Clarity Gate
 {
 id: 'clarity-gate',
@@ -214,27 +216,6 @@ const SKILLS = useMemo(
 []
 );
 
-const VALUES = useMemo(
-() => [
-{
-eyebrow: 'TikTok Mission',
-title: 'Inspire Creativity and Bring Joy',
-desc: 'Curiosity with taste — explore widely, synthesize deeply, build with intent.',
-},
-{
-eyebrow: 'Growth',
-title: 'Grow Together, Keep Learning',
-desc: 'Build products that help imaginations thrive',
-},
-{
-eyebrow: 'Work Style',
-title: 'Seek Truth and Be Pragmatic',
-desc: 'Evidence-led decisions, clear outputs, and calm execution under constraints.',
-},
-],
-[]
-);
-
 const [activeId, setActiveId] = useState(PROJECTS[0].id);
 const activeProject = PROJECTS.find((p) => p.id === activeId) ?? PROJECTS[0];
 
@@ -377,11 +358,6 @@ creating impactful solutions for complex challenges.
 </div>
 
 
-<div className="mt-12 grid gap-6 lg:grid-cols-3">
-{VALUES.map((v) => (
-<ValueCard key={v.title} eyebrow={v.eyebrow} title={v.title} desc={v.desc} />
-))}
-</div>
 
 </div>
 </motion.section>
