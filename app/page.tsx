@@ -323,16 +323,19 @@ She is passionate about leveraging analytics to provide insights that solve prob
 
 <br />
 <br />
-• Project Management, Stakeholder Management, Financial Analysis, Business Analysis and System Design
-<br />
-🌟 I am dedicated to empowering teams, advancing cutting-edge technologies, and
-creating impactful solutions for complex challenges.
+💎 Data Science, Analytics, Tech, and AI
 <br />
 <br />
-• Technical Skills: Business Intelligence, Excel, SQL, Power BI, Tableau, Python to deliver insights and transform complex workflows into automated systems.
+🌻 Esther is a passionate Data Analyst and Scientist, connecting the data, technology, and stakeholders.
 <br />
-
-🌟 My mission is to drive innovation at the intersection of Data Science, Artificial Intelligence, Usability and Infrastructure Operations.
+<br />
+💎 Esther leads cross-functional AI initiatives by aligning business strategy with execution, streamlining processes, and leveraging data-driven insights to deliver scalable, high-impact results.
+<br />
+<br />
+🌟 My mission is to drive creativity &amp; innovation and project execution at the intersection of data science, AI and usability, leveraging a deep understanding of product development and business strategy.
+<br />
+<br />
+🌟 I am dedicated to empowering teams, advancing cutting-edge technologies and creating impactful solutions for complex challenges.
 <br />
 <br />
 • Clarity Gate (US & SG)
