@@ -54,12 +54,12 @@ problem:
 solution:
 'Developed a 2-in-1 AI Report Builder (Super Chart × CRM Agent Auto-Report) that collects data, automates chart generation, standardises business reporting and supports diagnostic analysis.',
 impact: [
-'Super Chart: AI-powered auto-chart generation (descriptive analytics: what happened)',
+'Super Chart: Auto-chart generation (descriptive analytics: what happened)',
 'Agent Auto-Report: AI-powered report generation with root-cause analysis and AI insights (diagnostic analytics: why it happened)',
 ],
 stack: [
 'Super Chart Frontend: TypeScript + React',
-'Super Chart Backend: TypeScript + Gulux (in-house framework)',
+'Super Chart Backend: TypeScript + Gulux Framework',
 'Agent Auto-Report: React · TypeScript · Vite · Tailwind CSS · Vercel',
 ],
 gradient: 'from-rose-500/15 via-pink-500/10 to-transparent',
@@ -336,6 +336,10 @@ She is passionate about leveraging analytics to provide insights that solve prob
 <br />
 <br />
 🌟 I am dedicated to empowering teams, advancing cutting-edge technologies and creating impactful solutions for complex challenges.
+<br />
+<br />
+• 2-in-1 AI Report Builder
+<br />Developed a 2-in-1 AI Report Builder (Super Chart × CRM Agent Auto-Report) that collects data, automates chart generation, standardises business reporting and supports diagnostic analysis.
 <br />
 <br />
 • Clarity Gate (US & SG)
